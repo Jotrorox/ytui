@@ -1,2 +1,4 @@
+from .app import YtuiApp
+
 def main() -> None:
-    print("Hello from ytui!")
+    YtuiApp().run()
